@@ -1,0 +1,47 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f7fa;
+  margin: 40px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+th {
+  background-color: #e9eef4;
+  font-weight: bold;
+}
+
+td span {
+  font-size: 0.8em;
+  color: #333;
+}
+
+/* Color themes per subject */
+.copm { background-color: #f8e8a2; }
+.gl { background-color: #cce7ff; }
+.ihm { background-color: #d4f8d4; }
+.se2 { background-color: #f7c7f7; }
+.pl { background-color: #ffd7a2; }
+.ps { background-color: #e6d4f8; }
+.comp { background-color: #d2f0e6; }
+
